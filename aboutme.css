@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Play', sans-serif;
+}
+
+nav{
+    position: absolute;
+    width: 100px;
+    height: 937px;
+    left: 0px;
+    top: 0px;
+    background: #FF0A54;
+    color: white;
+}
+a{
+    display: block;
+    color: whitesmoke;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+#linkedolas{
+    margin-top: 325px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    margin: 25px;
+    color: whitesmoke;
+}
+a:hover {
+    color: #243B55;
+    top: -5px;
+}
+a{
+    position: relative;
+    text-decoration: none;
+    transition: top ease 0.5s;
+    top: 0;
+}
+
+#home{
+    position: relative;
+    color: whitesmoke;
+    margin-left: 30px;
+    margin-top: 10px;
+    transition: top ease 0.5s;
+    top: 0;
+}
+#home:hover{
+    color: #FF0A54;
+    top: -5px;
+}
+
+h1{
+    text-align: center;
+    color: #FF0A54;
+    margin-bottom: 20px;
+}
+
+#nome{
+    position: absolute;
+    left: 1150px;
+    top: 400px;
+    color: whitesmoke; 
+}
+#name{
+    color: #FF0A54;
+    margin: 0px;
+}
+
+ul{
+    position: absolute;
+    width: 700px;
+    height: 2=170px;
+    border: 2px solid #FF0A54;
+    margin-left: 100px;
+    margin-top: 25px;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: large;
+    padding: 30px;
+}
+
+#profissional{
+    right: 100px;
+    font-size: large;
+    color: #FF0A54;
+}
+
+#ensino{
+    right: 100px;
+    top: 450px;
+    font-size: large;
+    color: #FF0A54;
+}
+
+#dados{
+    top: 360px;
+    font-size: large;
+    color: #FF0A54;
+}
+
+dd{
+    margin: 15px;
+    color: whitesmoke;
+    margin-left: 30px;
+}
+#box{
+    top: 940px;
+}
