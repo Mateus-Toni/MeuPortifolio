@@ -4,81 +4,89 @@
     font-family: 'Play', sans-serif;
 }
 
-nav{
+.navbar{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    color: white;
+    
+}
+.indice:hover{
+    color: #FF0A54;
+    top: -5px;
+}
+
+.indice{
+    position: relative;
+    margin: 50px 25px;
+    transition: top ease 0.5s;
+    top: 0;
+    text-decoration: none;
+    padding: 20px;
+}
+.list_contacts{
+    position: relative;
+    list-style: none;
+    text-align: center;
+    margin-top: 370px;
+}
+.list_contacts > li{
+    margin: 50px 0px;
+}
+a{
+    color: white;
+}
+.foto{
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 5px solid #FF0A54;
+}
+.centro > .list_name{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.centro{
+    margin-left: auto;
+    margin-right: auto ;
+    width: 80%;
+    color: white;
+    margin-top: 200px;
+}
+.text{
+    margin-top: 100px;
+}
+.text1{
+    margin-top: 120px;
+}
+.nome{
+    color: #FF0A54;
+}
+
+.navrosa{
     position: absolute;
     width: 100px;
-    height: 937px;
+    height: 100%;
     left: 0px;
     top: 0px;
     background: #FF0A54;
     color: white;
 }
-a{
-    display: block;
-    color: whitesmoke;
-    margin-left: 30px;
-    margin-top: 50px;
-}
-#linkedolas{
-    margin-top: 325px;
-}
-header{
-    display: flex;
-    justify-content: center;
-}
-h3{
-    margin: 25px;
-    color: whitesmoke;
-}
+
 a:hover {
     color: #243B55;
     top: -5px;
 }
 a{
+    padding: 20px;
     position: relative;
-    text-decoration: none;
     transition: top ease 0.5s;
     top: 0;
-}
-
-#home{
-    position: relative;
-    color: whitesmoke;
-    margin-left: 30px;
-    margin-top: 10px;
-    transition: top ease 0.5s;
-    top: 0;
-}
-#home:hover{
-    color: #FF0A54;
-    top: -5px;
-}
-
-img{
-    display: block;
-    border-radius: 500px;
-    width: 200px;
-    height: 200px;
-    border: 5px solid #FF0A54;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 235px;
-    padding: 15px;
-}
-h1{
-    position: absolute;
-    left: 600px;
-    top: 420px;
-    color: whitesmoke;
-}
-
-#nome{
-    position: absolute;
-    left: 1150px;
-    top: 400px;
-    color: whitesmoke; 
-}
-#name{
-    color: #FF0A54;
-    margin: 0px;
 }
